@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="read_all_values">read all values</string>
+    <string name="read_all_diskru">read all values diskru</string>
+    <string name="read_all_db">read all values from db</string>
+    <string name="read_all_share">read all values from preference</string>
+    <string name="write_share">write preference</string>
+    <string name="write_all_db">write db</string>
+    <string name="write_all_diskru">write diskru</string>
+    <string name="read_all">run all read test</string>
+    <string name="write_all">write all test</string>
+    <string name="write_all_store_api">write using store api</string>
+    <string name="read_all_store_api">read all using store api</string>
+    <string name="read_data_print_log">print log when reading data</string>
+    <string name="bench_test">bench test</string>
+    <string name="write_all_lru">lru write data</string>
+    <string name="read_all_LRU">read all lru</string>
+</resources>
