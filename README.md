@@ -1,4 +1,9 @@
-sharePrefernce | single file | fast | without LRU
-database | two file | slow | without LRU
-DiskLruCache | many files | slow | with IRU
-LRUSharePreferenceCache | one file | fast | with IRU
+
+| method  	|  file number 	| speed  	| with LRU  	|   
+|---	|---	|---	|---	|
+|  sharePrefernce 	|  1 	|   fanst	|   no	|   	
+|  database 	|  about two files 	|  slow 	|  no 	|   	
+| DiskLruCache  	|  many files 	|  slow 	|   yes	|   	
+| LRUSharePreferenceCache | 1  | fast | yes |
+
+The reason I need LRU is because SharePreference will crash when entry number exceeds about 10,000.
